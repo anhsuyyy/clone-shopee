@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@layer base {
+  /* Ẩn thanh cuộn nhưng vẫn cho phép cuộn */
+  html,
+  body {
+    -ms-overflow-style: none; /* IE và Edge cũ */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, và Opera */
+  }
+}
