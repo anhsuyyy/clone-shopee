@@ -19,7 +19,6 @@ export default function Cart() {
           <ProductSuggestions />
         </main>
       </div>
-
       <Footer />
     </div>
   );
